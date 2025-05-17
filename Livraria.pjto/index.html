@@ -1,221 +1,282 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+    
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title> Livraria </title>
-
 </head>
 <body>
     
     <header>
         <div class="book">
             <h1>Livrarias</h1>
-            <nav class="links">
-                <ul>
-                    <li><a href="#">Login</a></li>
-                    <li><a href="#">Register</a></li>
-                </ul>
-            </nav>
         </div>
 
         <div class="text">
-            <span class="quebra">Encontre Seu</span>
-            <span class="quebra">Livro Favorito</span>
+            <span class="quebra">Encontre Seu Livro Favorito </span>
         </div>
     </header>
+
+    <div class="container">
+        <div class="img">
+          <img src="img/image-2.png" alt="">
+          <img src="img/hero-image.png" alt="">
+        </div>
+      </div>
+      
+    <div class="seletores">
+        <li>
+            <a href="#">
+                <p>Devolução Fácil</p> <p>Melhor Preço e Oferta</p> <p>Ótima Oferta</p>
+            </a>
+        </li>
+    </div>
+
+    <div class="tema1">
+        <h1>
+            Livros de Terror
+        </h1>
+    </div>
+
+    <div class="galeria-livros">
+        <div class="livro">
+            <img src="image copy 2.png" alt="Livro 1">
+            <div class="info-livro">
+                <p class="preco-antigo">R$59,99</p>
+                <p class="preco-novo">R$49,50</p>
+                <button class="btn-adicionar" data-id="1" data-nome="Livros de Terror" data-preco="49.50">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+        <div class="livro">
+            <img src="image copy 3.png" alt="Livro 2">
+            <div class="info-livro">
+                <p class="preco-antigo">R$49,99</p>
+                <p class="preco-novo">R$37,99</p>
+                <button class="btn-adicionar" data-id="1" data-nome="Livros de Terror" data-preco="37.99">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+        <div class="livro">
+            <img src="image.png" alt="Livro 3">
+            <div class="info-livro">
+                <p class="preco-antigo">R$69,99</p>
+                <p class="preco-novo">R$55,99</p>
+                <button class="btn-adicionar" data-id="1" data-nome="Livros de Terror" data-preco="55,99">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+        <div class="livro">
+            <img src="image copy.png" alt="Livro 4">
+            <div class="info-livro">
+                <p class="preco-antigo">R$70,99</p>
+                <p class="preco-novo">R$59,99</p>
+                <button class="btn-adicionar" data-id="1" data-nome="Livros de Terror " data-preco="59,99">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="tema2">
+         <h1>
+            Livros de Romance
+         </h1>
+    </div>
     
-            <div class="img">
-                <img src="img/image-2.png" alt=""><img src="img/hero-image.png" alt="">
-            </div>
-
-            <div class="seletores">
-                <li>
-                    <a href="#">
-                        <p>Devolução Fácil</p> <p>Melhor Preço e Oferta</p> <p>Ótima Oferta </p>
-                    </a>
-                </li>
-            </div>
-
-            <div class="tema1">
-                <h1>
-                    Livros de Terror
-                </h1>
-            </div>
-
-            <div class="galeria-livros">
-                <div class="livro">
-                    <img src="image copy 2.png" alt="Livro 1">
-                    <div class="info-livro">
-                        <p class="preco-antigo">R$59,99</p>
-                        <p class="preco-novo">R$49,50</p>
-                        <button>Adicionar ao Carrinho</button>
-                    </div>
-                </div>
-                <div class="livro">
-                    <img src="image copy 3.png" alt="Livro 2">
-                    <div class="info-livro">
-                        <p class="preco-antigo">R$49,99</p>
-                        <p class="preco-novo">R$37,99</p>
-                        <button>Adicionar ao Carrinho</button>
-                    </div>
-                </div>
-                <div class="livro">
-                    <img src="image.png" alt="Livro 3">
-                    <div class="info-livro">
-                        <p class="preco-antigo">R$69,99</p>
-                        <p class="preco-novo">R$54,99</p>
-                        <button>Adicionar ao Carrinho</button>
-                    </div>
-                </div>
-                <div class="livro">
-                    <img src="image copy.png" alt="Livro 4">
-                    <div class="info-livro">
-                        <p class="preco-antigo">R$70,99</p>
-                        <p class="preco-novo">R$59,99</p>
-                        <button>Adicionar ao Carrinho</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="tema2">
-                 <h1>
-                    Livros de Romance
-                 </h1>
-            </div>
-            
-            <div class="galeria-livros">
-                <div class="livro">
-                    <img src="image copy 4.png" alt="Livro 1">
-                    <div class="info-livro">
-                        <p class="preco-antigo">R$65,90</p>
-                        <p class="preco-novo">R$54,99</p>
-                        <button>Adicionar ao Carrinho</button>
-                    </div>
-                </div>
-
-                <div class="livro">
-                    <img src="img/image.png" alt="Livro 2">
-                    <div class="info-livro">
-                        <p class="preco-antigo">R$49,90</p>
-                        <p class="preco-novo">R$34,90</p>
-                        <button>Adicionar ao Carrinho</button>
-                    </div>
-                </div>
-                <div class="livro">
-                    <img src="image copy 6.png" alt="Livro 3">
-                    <div class="info-livro">
-                        <p class="preco-antigo">R$69,90</p>
-                        <p class="preco-novo">R$50,90</p>
-                        <button>Adicionar ao Carrinho</button>
-                    </div>
-                </div>
-                <div class="livro">
-                    <img src="image copy 5.png" alt="Livro 4">
-                    <div class="info-livro">
-                        <p class="preco-antigo">R$77,50</p>
-                        <p class="preco-novo">R$58,99</p>
-                        <button>Adicionar ao Carrinho</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="tema3">
-                <h1>
-                   Livros de Historias
-                </h1>
-           </div>
-
-
-           <div class="galeria-livros">
-            <div class="livro">
-                <img src="image copy 7.png" alt="Livro 1">
-                <div class="info-livro">
-                    <p class="preco-antigo">R$120,</p>
-                    <p class="preco-novo">R$99,99</p>
-                    <button>Adicionar ao Carrinho</button>
-                </div>
-            </div>
-
-            <div class="livro">
-                <img src="image copy 8.png" alt="Livro 2">
-                <div class="info-livro">
-                    <p class="preco-antigo">R$180,50</p>
-                    <p class="preco-novo">R$130,99</p>
-                    <button>Adicionar ao Carrinho</button>
-                </div>
-            </div>
-            <div class="livro">
-                <img src="image copy 9.png" alt="Livro 3">
-                <div class="info-livro">
-                    <p class="preco-antigo">R$110,99</p>
-                    <p class="preco-novo">R$93,99</p>
-                    <button>Adicionar ao Carrinho</button>
-                </div>
-            </div>
-            <div class="livro">
-                <img src="image copy 10.png" alt="Livro 4">
-                <div class="info-livro">
-                    <p class="preco-antigo">R$160,00</p>
-                    <p class="preco-novo">R$120,00</p>
-                    <button>Adicionar ao Carrinho</button>
-                </div>
+    <div class="galeria-livros">
+        <div class="livro">
+            <img src="image copy 4.png" alt="Livro 1">
+            <div class="info-livro">
+                <p class="preco-antigo">R$65,90</p>
+                <p class="preco-novo">R$54,99</p>
+                <button class="btn-adicionar" data-id="1" data-nome="Livros de Romance" data-preco="54,99">Adicionar ao Carrinho</button>
             </div>
         </div>
 
-        <footer>
-            <div class="footer-content">
-              <div class="footer-section about">
+        <div class="livro">
+            <img src="img/image.png" alt="Livro 2">
+            <div class="info-livro">
+                <p class="preco-antigo">R$49,90</p>
+                <p class="preco-novo">R$34,90</p>
+                <button class="btn-adicionar" data-id="1" data-nome="Livros de Romance" data-preco="34,00">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+        <div class="livro">
+            <img src="image copy 6.png" alt="Livro 3">
+            <div class="info-livro">
+                <p class="preco-antigo">R$69,90</p>
+                <p class="preco-novo">R$50,90</p>
+                <button class="btn-adicionar" data-id="1" data-nome="Livros de Romance" data-preco="50,90">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+        <div class="livro">
+            <img src="image copy 5.png" alt="Livro 4">
+            <div class="info-livro">
+                <p class="preco-antigo">R$77,50</p>
+                <p class="preco-novo">R$58,99</p>
+                <button class="btn-adicionar" data-id="1" data-nome="Livros de Romance" data-preco="58,99">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="tema3">
+        <h1>
+           Livros de Historias
+        </h1>
+    </div>
+
+    <div class="galeria-livros">
+        <div class="livro">
+            <img src="image copy 7.png" alt="Livro 1">
+            <div class="info-livro">
+                <p class="preco-antigo">R$120,00</p>
+                <p class="preco-novo">R$99,99</p>
+                <button class="btn-adicionar" data-id="1" data-nome="Livros de Histórias" data-preco="99,99">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+
+        <div class="livro">
+            <img src="image copy 8.png" alt="Livro 2">
+            <div class="info-livro">
+                <p class="preco-antigo">R$180,50</p>
+                <p class="preco-novo">R$130,99</p>
+                <button class="btn-adicionar" data-id="1" data-nome="Livros de Histórias" data-preco="130,00">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+        <div class="livro">
+            <img src="image copy 9.png" alt="Livro 3">
+            <div class="info-livro">
+                <p class="preco-antigo">R$110,99</p>
+                <p class="preco-novo">R$93,99</p>
+                <button class="btn-adicionar" data-id="1" data-nome="Livros de Histórias" data-preco="93,99">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+        <div class="livro">
+            <img src="image copy 10.png" alt="Livro 4">
+            <div class="info-livro">
+                <p class="preco-antigo">R$160,00</p>
+                <p class="preco-novo">R$120,00</p>
+                <button class="btn-adicionar" data-id="1" data-nome="Livros de Histórias" data-preco="120,00">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section about">
                 <h2>LuxReads</h2>
                 <p>A melhor livraria premium com os livros mais exclusivos e encantadores.</p>
-              </div>
-              <div class="footer-section links">
+            </div>
+            <div class="footer-section links">
                 <h3>Links Rápidos</h3>
                 <ul>
-                  <li><a href="#">Início</a></li>
-                  <li><a href="#">Catálogo</a></li>
-                  <li><a href="#">Sobre</a></li>
-                  <li><a href="#">Contato</a></li>
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#">Catálogo</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Contato</a></li>
                 </ul>
-              </div>
-              <div class="footer-section contact">
+            </div>
+            <div class="footer-section contact">
                 <h3>Entre em Contato</h3>
                 <p>Email: contato@luxreads.com</p>
                 <p>Telefone: (11) 1234-56789</p>
-              </div>
             </div>
-            <div class="footer-bottom">
-              <p>&copy; 2025 LuxReads. Todos os direitos reservados.</p>
-            </div>
-          </footer>
-          
-          <script class="aula.js">
-            // Ativa/desativa o menu em dispositivos móveis
-            function toggleMenu() {
-                const menu = document.querySelector('.links ul');
-                menu.classList.toggle('active');
-            }
-        
-            // Ajuste de layout responsivo baseado na largura da tela
-            function aplicarResponsividade() {
-                const largura = window.innerWidth;
-        
-                const galeriaLivros = document.querySelectorAll('.galeria-livros');
-                galeriaLivros.forEach(galeria => {
-                    if (largura <= 768) {
-                        galeria.style.flexDirection = 'column';
-                    } else {
-                        galeria.style.flexDirection = 'row';
-                    }
-                });
-            }
-        
-            // Ajuste inicial e ao redimensionar
-            window.addEventListener('load', aplicarResponsividade);
-            window.addEventListener('resize', aplicarResponsividade);
-        </script>
-        
-        
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 LuxReads. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <button id="abrir-carrinho">Carrinho (0)</button>
+    
+    <div id="carrinho">
+        <h3>Seu Carrinho</h3>
+        <div id="itens-carrinho"></div>
+        <p><strong>Total: R$ <span id="total">0.00</span></strong></p>
+        <button id="btn-finalizar">Finalizar Compra</button>
+        <div id="mensagem-vazio" style="display: none;">
+            <h3>Não há produtos no carrinho!</h3>
+            <p>Adicione livros ao carrinho para finalizar a compra.</p>
+        </div>
+        <div id="mensagem-agradecimento" style="display: none;">
+            <h3>Obrigado pela sua compra!</h3>
+            <p>Em breve, você receberá um E-mail com as notas fiscais e código de rastreamento.</p>
+        </div>
+    </div>
+    
+    <script>
+    const botoesAdicionar = document.querySelectorAll('.btn-adicionar');
+    const itensCarrinho = document.getElementById('itens-carrinho');
+    const totalCarrinho = document.getElementById('total');
+    const botaoCarrinho = document.getElementById('abrir-carrinho');
+    const carrinho = document.getElementById('carrinho');
+    const btnFinalizar = document.getElementById('btn-finalizar');
+    const mensagemAgradecimento = document.getElementById('mensagem-agradecimento');
+    const mensagemVazio = document.getElementById('mensagem-vazio');  // Adicionado para referência
+    
+    let carrinhoItens = [];
+    let total = 0;
+    
+    // Exibe/oculta o carrinho
+    botaoCarrinho.addEventListener('click', () => {
+        carrinho.style.display = carrinho.style.display === 'block' ? 'none' : 'block';
+        // Verifica se o carrinho está vazio ao abrir/fechar
+        if (carrinhoItens.length === 0) {
+            mensagemVazio.style.display = 'block';
+        } else {
+            mensagemVazio.style.display = 'none';
+        }
+    });
+    
+    botoesAdicionar.forEach(botao => {
+        botao.addEventListener('click', () => {
+            const nome = botao.getAttribute('data-nome');
+            const preco = parseFloat(botao.getAttribute('data-preco'));
+    
+            carrinhoItens.push({ nome, preco });
+            total += preco;
+    
+            atualizarCarrinho();
+        });
+    });
+    
+    function atualizarCarrinho() {
+        // Atualiza o conteúdo do carrinho
+        itensCarrinho.innerHTML = '';
+        carrinhoItens.forEach(item => {
+            const div = document.createElement('div');
+            div.textContent = `${item.nome} - R$ ${item.preco.toFixed(2)}`;
+            itensCarrinho.appendChild(div);
+        });
+    
+        totalCarrinho.textContent = total.toFixed(2);
+        botaoCarrinho.textContent = `Carrinho (${carrinhoItens.length})`;
+    
+        if (carrinhoItens.length > 0) {
+            btnFinalizar.style.display = 'block';
+            mensagemVazio.style.display = 'none';  // Esconde a mensagem de carrinho vazio
+        } else {
+            btnFinalizar.style.display = 'none';
+            mensagemVazio.style.display = 'block';  // Exibe a mensagem de carrinho vazio
+        }
+    }
+    
+    btnFinalizar.addEventListener('click', () => {
+        if (carrinhoItens.length === 0) {
+            // Exibe a mensagem de carrinho vazio
+            mensagemVazio.style.display = 'block';
+        } else {
+            // Esconde o carrinho e o botão de finalizar
+            carrinho.style.display = 'none';
+            btnFinalizar.style.display = 'none';
+    
+            // Exibe a mensagem de agradecimento
+            mensagemAgradecimento.style.display = 'block';
+        }
+    });
+    
+    carrinho.style.display = 'none';    
+    </script>
+
 </body>
 </html>
+
+
